@@ -1,4 +1,7 @@
 from datetime import datetime
+from modal import (
+    wsgi_app
+)
 
 app = App("dateTime")
 
